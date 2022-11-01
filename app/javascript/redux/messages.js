@@ -1,7 +1,7 @@
 /* eslint-disable no-param-reassign */
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 
-const messagesAPI = "http://localhost:3000/api/v1/messages/";
+const messagesAPI = "/api/v1/messages";
 const initialState = [];
 
 export const fetchMessage = createAsyncThunk(
